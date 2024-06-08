@@ -1,0 +1,9 @@
+OOP Concepts
+Object-Oriented Programming (OOP) is a programming paradigm that uses "objects" to design software. 
+
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+
+In Java, multiple inheritance is not supported through classes to avoid complexity and ambiguity. However, Java supports multiple inheritance through interfaces.

@@ -1,0 +1,34 @@
+
+In Python, file handling involves performing operations like creating, reading, writing, and closing files. The built-in open() function is used to work with files. Here’s an overview of file functions and relevant keywords to create and write files in Python.
+
+
+In Python, file handling involves performing operations like creating, reading, writing, and closing files. The built-in open() function is used to work with files. Here’s an overview of file functions and relevant keywords to create and write files in Python:
+
+File Function in Python
+file = open("filename")
+file.wirte("any text")
+file.close()
+
+file: The name of the file you want to open.
+mode: Specifies the mode in which the file is opened (e.g., read, write, append, binary, etc.).
+Modes for Opening Files
+
+Creating and Writing Files
+Creating a File
+To create a new file, you can use 'w', 'x', or 'a' modes.
+
+'w': If the file exists, it is truncated. If the file does not exist, it creates a new file.
+'x': Creates a new file. If the file already exists, the operation fails.
+'a': Opens the file for appending. If the file does not exist, it creates a new file.
+
+
+write(): Writes a string to the file.
+writelines(): Writes a list of strings to the file.
+
+Creating a file: Use open() with modes 'w', 'x', or 'a'.
+Writing to a file: Use write() or readlines() methods.
+
+file=open("teste.txt","r+")
+print(file.readlines())
+file.write("heading out for shoping")
+file.close()

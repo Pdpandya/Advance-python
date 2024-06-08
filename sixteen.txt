@@ -1,0 +1,21 @@
+
+ a single except block can handle multiple exceptions in Python. This can be done by specifying a tuple of exception types. When an exception is raised, Python will check if it matches any of the types in the tuple. If it does, the corresponding except block will handle the exception.
+
+Contains code that might raise multiple exceptions (ValueError or ZeroDivisionError).
+
+A single except block can handle multiple exceptions by specifying a tuple of exception types. This allows for concise and efficient error handling when you want the same response for different exceptions. However, if you need to handle different exceptions differently, you can use multiple except blocks, each handling a specific type of exception.
+
+try:
+    number = int(input("Enter a number: "))
+    result = 10 / number
+except ValueError:
+    print("That's not a valid number!")
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+except Exception as e:
+    print("An unexpected error occurred:" (e))
+else:
+    print("Division successful, result:" (result))
+finally:
+    print("Execution of the try-except block is complete.")
+

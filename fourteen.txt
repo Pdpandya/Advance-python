@@ -1,0 +1,14 @@
+  A try-except block can have multiple except statements. There is no strict limit on the number of except blocks you can have; you can use as many as needed to handle different exceptions. Each except block can handle a different type of exception.
+
+Built-in Exception Classes:
+  
+  ArithmeticError
+  ZeroDivisionError
+  OverflowError
+  FloatingPointError
+  AttributeError
+  ImportError
+  ModuleNotFoundError
+  ValueError
+  KeyError
+  IndentationError

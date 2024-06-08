@@ -1,0 +1,1 @@
+The primary relationship that is suitable for the course and faculty is association.

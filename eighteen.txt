@@ -1,0 +1,3 @@
+When the expression „1‟ == 1 is executed in Python, it evaluates to False.
+
+Since '1' (a string) and 1 (an integer) are of different types, Python considers them to be not equal. Therefore, the expression evaluates to False.

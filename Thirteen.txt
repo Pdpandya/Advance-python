@@ -1,6 +1,6 @@
 Exception Handling in Python:
 
-    Exception handling in Python is a mechanism to handle runtime errors, allowing a program to continue execution (or terminate gracefully) when unexpected situations occur. This is done using try, except, else, and finally blocks.
+   Python's exception handling system allows a program to continue executing (or end gracefully) in the event of an unexpected circumstance. Try, except, else, and finally blocks are used to do this..
 
 Example:
 
@@ -19,15 +19,15 @@ finally:
 
 Error in Python:
 
-    An error in Python is an issue in the program that causes it to fail. Errors are broadly categorized into two types: syntax errors and exceptions.
+    A Python error is a problem in the program that leads to its failure. Syntax errors and exceptions are the two main categories of errors.
 
 Syntax Errors:
 
-    Syntax errors occur when the Python parser cannot understand the code because it doesn't follow the correct syntax. These are detected at the time of compilation
+   When a piece of code fails to conform to proper syntax, the Python parser is unable to comprehend it, leading to syntax errors. These are found during the compilation process.
 
 Exceptions:
 
-    Exceptions are errors that occur at runtime. Even if the code is syntactically correct, it may produce runtime errors due to operations that are impossible to execute.
+    Runtime errors are known as exceptions. The code may result in runtime issues even though it is syntactically correct because of operations that cannot be performed.
 
     Common exceptions :
     ZeroDivisionError: Raised when dividing by zero.

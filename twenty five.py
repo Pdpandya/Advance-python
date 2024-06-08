@@ -9,7 +9,6 @@ class Circle:
     def perimeter(self):
         return 2 * self.pi * self.radius
 
-# Example usage:
 circle1 = Circle(5)
 print("Area of the circle with radius 5:",circle1.area())
 print("Perimeter of the circle with radius 5:",circle1.perimeter())

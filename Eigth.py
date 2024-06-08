@@ -1,12 +1,14 @@
 file = open("Twoo.txt", "r")
-
 w = file.read().split()
-length = max(len(word) for word in w)
-l_word = [word for word in w if len(word) == length]
+m = 0
+l = []
 
-  
-print("Lines stored in Variable:")
-
-print(l_word)
+for word in w:
+    if len(word) > m:
+        m = len(word)
+        l = [word] 
+    elif len(word) == m:
+        l.append(word)
+print(l)
 
 file.close()

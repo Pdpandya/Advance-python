@@ -1,21 +1,16 @@
-"""In Python, you define a class using the class keyword. A class serves as a blueprint for creating objects instances of the class. It can contain attributes  and methods that define the behavior of the objects."""
+"""Python's class keyword is used to define a class. An object's instances are created using a class as a blueprint. It may include properties and functions that specify how the objects behave."""
 
 '''self in Python
-self: self is a conventional name for the first parameter of methods in a class. It refers to the instance of the class. Using self, you can access attributes and methods of the class in Python.'''
+ The first argument of a class's methods is commonly referred to as self. It alludes to the class instance. In Python, you can access the class's methods and properties by using self.'''
 
-
-
-#Example of a Python Class
 
 class Person:
     def __init__(self, name, age):
-        self.name = name  # Instance attribute
-        self.age = age    # Instance attribute
+        self.name = name  
+        self.age = age    
 
-    # Method to display person details
     def details(self):
         print("Name:" (self.name), "Age:" (self.age))
 
 person1 = Person("parth", 30)
-# Calling a method 
 person1.details()

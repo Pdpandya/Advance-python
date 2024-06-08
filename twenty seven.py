@@ -1,4 +1,4 @@
-'''the isinstance() function is used to check whether an object is an instance of a particular class or a subclass thereof. The isinstance() function provides a way to verify the type of an object at runtime.'''
+'''To determine if an object is an instance of a specific class or a subclass thereof, use the isinstance() function. Verifying an object's type during runtime is possible with the help of the isinstance() function.'''
 
 class Animal:
     pass

@@ -1,10 +1,20 @@
 from collections import Counter
-import re
 
 file = open("Twoo.txt", "r")
 text = file.read()
-words = re.findall(r'\b\w+\b', text.lower())
-word_count = Counter(words)
+text = text.lower()
 
-for word, count in word_count.items():
+word = ''
+words = []
+
+for char in text:
+    if char.isalnum(): 
+        word += char
+    else: 
+        words.append(word)
+        word = ''
+    
+w = Counter(words)
+
+for word, count in w.items():
     print((word),":", (count))

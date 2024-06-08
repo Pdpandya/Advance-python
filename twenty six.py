@@ -1,6 +1,5 @@
-'''Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a class to inherit attributes and methods from another class. The class that inherits is called the subclass or derived class, and the class from which it inherits is called the superclass or base class.'''
-
-#example
+'''Object-oriented programming (OOP) is based on the fundamental idea of inheritance, which lets a class inherit properties and functions from another class. The class from which it inherits is referred to as the superclass or base class, and the class that inherits is referred to as the subclass or derived class.'''
+  
 # Base class
 class Animal:
     def __init__(self, name):

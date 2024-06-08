@@ -1,6 +1,5 @@
 
-ChatGPT
-The else part of a try-except-else block will be executed only if no exceptions are raised in the try block. In other words, if the code inside the try block executes without any errors, then the else block will be executed. If an exception is raised at any point within the try block, the corresponding except block(s) will be executed, and the else block will be skipped.
+Only if no exceptions are thrown in the try block will the otherwise portion of a try-except-else block be executed. Stated differently, the else block will be performed if the code inside the try block runs without any issues. The related except block will be run and the else block will be bypassed if an exception is raised at any time during the try block.
 
 Runs only if no exceptions are raised in the try block.
 In this example, it prints the result of the division if the division was successful.

@@ -1,11 +1,9 @@
-from collections import deque
+file = open("Twoo.txt", "r+")
+l = None
 
-file=open("Twoo.txt","r+")
-n = 1
-
-line = deque(file,maxlen=n)
-
-for last in line:
-    print(last,end='')
+for line in file:
+    l = line 
+if l:
+    print(l, end='')
 
 file.close()

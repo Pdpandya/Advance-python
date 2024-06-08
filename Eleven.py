@@ -7,7 +7,6 @@ for line in file:
 print("Lines stored in variable:")
 print(a)
 
-# Writing the contents to the output file
 ofile = open("output.txt", "w")
 ofile.write(a)
 

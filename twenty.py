@@ -6,7 +6,6 @@ def onumber():
     except ValueError as ve:
         print("Error:", ve)
     else:
-        print("You entered an odd number:", number)
+        print("odd number:", number)
 
-# Call the function
 onumber()
